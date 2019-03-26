@@ -30,6 +30,6 @@ This is a simple react project that provides an login page, to be used by an aut
 
 ## Install as a maven artifact
 
-Because the login page was aimed to be used by the authentication server developed with `java & spring boot`, it is used by the authentication server as a maven dependency. You can check out the authentication server developed for the team apps here :
+Because the login page was aimed to be used by the authentication server developed with `java & spring boot`, it is used by the authentication server as a maven dependency. You can check out the authentication server developed for the team apps here : https://github.com/Slidem/team-apps-oauth2-server
 
 To install the login page static resources (the actual .html file, the css and js files that are bundled after an npm build) simply run the `build-maven-artifact.sh` script. This will pack the static resources into a zip file and install the zip file as a maven artifact into your local repository.
